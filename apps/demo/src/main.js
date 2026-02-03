@@ -1,13 +1,12 @@
 import { createFetchClient } from "@zhele/fetch-client";
 
+
+
 const api = createFetchClient({
-    baseUrl: "https://example.com/api",
-    ttl: 10_000,
-    dedupe: true,
-    retry: { attempts: 3, baseDelay: 200 },
-    timeoutMs: 5_000,
-    headers: () => ({ Authorization: "Bearer ..." })
+    baseUrl: "https://jsonplaceholder.typicode.com"
 });
+
+
 
 document.querySelector("#app").innerHTML = `
   <h1>Fetch Client Demo</h1>
