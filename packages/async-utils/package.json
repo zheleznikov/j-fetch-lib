@@ -1,0 +1,10 @@
+{
+  "name": "@zhele/async-utils",
+  "version": "0.1.0",
+  "description": "Reusable async utilities: retry, timeout, queue, memoize",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  }
+}

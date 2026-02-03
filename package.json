@@ -1,0 +1,16 @@
+{
+  "name": "fetch-client-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w demo",
+    "build": "npm run build -w demo",
+    "preview": "npm run preview -w demo"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

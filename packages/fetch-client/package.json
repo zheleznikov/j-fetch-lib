@@ -1,0 +1,10 @@
+{
+  "name": "@zhele/fetch-client",
+  "description": "Smart fetch wrapper with cache, TTL, dedupe, retry/timeout and interceptors",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  }
+}
